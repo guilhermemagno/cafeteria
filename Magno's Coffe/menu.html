@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MENU</title>
+    <link id="favicon" rel="shortcut icon" href=".\imagens\logo.png" type="images/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" media="screen" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="main.js"></script>
+</head>
+
+<body background="./imagens/madeirada.jpg">    
+    <div class="header">
+        <div class="center">
+        <div class="topnav">
+        <a href="index.html"><i class="fa fa-fw fa-home"></i>Inicio</a>
+        <a class="active" href="menu.html"><i class="fa fa-fw fa-book"></i>Menu</a>
+        <a href="sugestao.html"><i class="fa fa-fw fa-envelope"></i>Sugestão</a>
+        </div>
+        </div>
+        </div>
+    </div>
+    <center>
+            <p></p>
+                <p><img src="./imagens/logo.png" alt="LOGO" style="widows: 300px; height:200px"></p>
+    <h2>MENU</h2></center>
+    <center><table style="width: 750px; font-family: Arial, Helvetica, sans-serif" border="2" bordercolor="black" background="./imagens/madeirada2.jpg"> 
+        <tr>
+            <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BEBIDAS</th>
+            <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PREÇO</th>
+        </tr>
+        <tr>
+            <td>Café Latte</td>
+            <td>R$3,50</td>
+        </tr>
+        <tr>
+            <td>Café Americano</td>
+            <td>R$3,50</td>
+        </tr>
+        <tr>
+            <td>Expresso Avelã</td>
+           <td>R$5,00</td>
+        </tr>
+        <tr>
+            <td>Expresso Brigadeiro</td>
+            <td>R$5,00</td>
+        </tr>
+        <tr>
+            <td>Expresso com Chantilly</td>
+            <td>R$5,50</td>
+        </tr>
+        <tr>
+            <td>Chá verde</td>
+            <td>R$5,90</td>
+        </tr>
+        <tr>
+            <td>Chai Latte</td>
+            <td>R$7,90</td>
+        </tr>
+        <tr>
+            <td>Cold Brew com Leite</td>
+            <td>R$8,90</td>
+        </tr>
+        <tr>
+            <td>Cold Brew com Baunilha</td>
+            <td>R$9,90</td>
+        </tr>    
+        <tr>
+            <td>Cappuccino Canela</td>
+            <td>R$12,50</td>
+        </tr>
+        <tr>
+            <td>Cappuccino Chocolate</td>
+            <td>R$12,50</td>
+        </tr>
+        <tr>
+            <td>Chai com Limonada</td>
+            <td>R$12,90</td>
+        </tr>
+        <tr>
+            <td>Cappuccino Brigadeiro</td>
+            <td>R$16,90</td>
+        </tr>
+        <tr>
+            <td>Cappuccino Caramelo</td>
+            <td>R$16,90</td>
+        </tr>
+        <tr>
+            <td>Cappuccino Doce de leite</td>
+            <td>R$16,90</td>
+        </center>
+        <tr>
+            <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SOBREMESAS</th>
+            <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+        </tr>
+        <tr>
+            <td>Donut Doce de Leite</td>
+            <td>R$8,00</td>
+            </tr>   
+        <tr>
+            <td>Donut de Chocolate</td>
+            <td>R$8,00</td>
+        </tr>   
+        <tr>
+            <td>Bolo Triplo Brigadeiro</td>
+            <td>R$13,90</td>
+        </tr>
+        <tr>
+            <td>Bolo Red Velvet</td>
+            <td>R$13,90</td>
+        </tr>   
+</table>
+<p>
+     
+</p>
+<h2>FAÇA UM PEDIDO</h2>
+<Form name="formulario" action="teste.jsp" method="post">
+        <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;    Nome: <input type="text" name="nome" style="width: 250px; height: 32px">
+        </p>
+        <p>
+                Endereço: <input type="text" name="endereco" style="width: 250px; height: 32px">
+        </p>
+        <p>
+                &nbsp;Telefone: <input type="tel" placeholder="(XX) XXXX-XXXX" pattern="^\(?\d{2}\)\d{4}[-\s]\d{4}$" required name="tel" style="width: 250px; height: 32px">
+        </p>
+
+            <label> <p>Forma de pagamento:
+                <select name="pagamento" required="required" style="width: 250px; height: 32px">
+                    <option value="0">
+                    <option value="1">Dinheiro
+                    <option value="2">Cartão de Crédito 
+                    <option value="3">Cartão de Débito
+                    </select>
+                </label></p>
+</Form>         
+<div class="fieldset1">  
+<fieldset style="widows: 700px">
+    <h2>Produtos: </h2>
+    <h3>Bebidas</h3>
+    <div class="center">
+    <p>
+        <label> 
+           Café Latte
+        </label>
+        <label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="nota" min="0" max="10" step="1">           
+        </label>
+    </p>
+    <p>
+        <label>
+             Café Americano
+        </label>
+        <label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="nota" min="0" max="10" step="1">
+        </label>
+    </p>
+    <p>
+        <label>
+             Expresso Avelã
+        </label>
+        <label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="nota" min="0" max="10" step="1">
+        </label>
+    </p>
+    <p>
+        <label>
+             Expresso Brigadeiro
+        </label>
+        <label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="nota" min="0" max="10" step="1">
+        </label>
+    </p>
+    <p>
+        <label>
+             Expresso com Chantilly
+        </label>
+        <label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="nota" min="0" max="10" step="1">
+        </label>
+    </p>
+    <p>
+        <label> 
+           Chá Verde
+         </label>
+        <label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="nota" min="0" max="10" step="1">           
+        </label>
+    </p>
+    <p>
+        <label> 
+            Chai Latte
+        </label>
+        <label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="nota" min="0" max="10" step="1">           
+        </label>
+    </p>
+    <p>
+        <label>
+            Cold Brew com Leite
+        </label>
+        <label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="nota" min="0" max="10" step="1">
+        </label>
+    </p>
+    <p>
+        <label>
+            Cold Brew com Baunilha
+        </label>
+        <label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="nota" min="0" max="10" step="1">
+        </label>
+    </p>
+    <p>
+        <label>
+             Cappuccino Canela
+        </label>
+        <label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="nota" min="0" max="10" step="1">
+        </label>
+    </p>
+    <p>
+        <label>
+             Cappuccino Chocolate
+        </label>
+        <label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="nota" min="0" max="10" step="1">
+        </label>
+    </p>
+    <p>
+        <label>
+                Chai com Limonada
+        </label>
+        <label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="nota" min="0" max="10" step="1">
+        </label>
+    </p>
+    <p>
+        <label>
+             Cappuccino Brigadeiro
+        </label>
+        <label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <input type="number" name="nota" min="0" max="10" step="1">
+        </label>
+    </p>
+    <p>
+        <label>
+             Cappuccino Caramelo
+        </label>
+        <label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="nota" min="0" max="10" step="1">
+        </label>
+    </p>
+    <p>
+        <label>
+            Cappuccino Doce de Leite
+        </label>
+        <label>
+           &nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="nota" min="0" max="10" step="1">
+        </label>
+    </p>
+    <h3>Sobremesas</h3>
+    <p>
+        <label>
+            Donut Doce de Leite
+        </label>
+        <label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="nota" min="0" max="10" step="1">
+        </label>
+    </p>
+    <p>
+        <label>
+            Donut de Chocolate
+        </label>
+        <label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="nota" min="0" max="10" step="1">
+        </label>
+    </p>
+    <p>
+        <label>
+            Bolo Triplo Brigadeiro
+        </label>
+        <label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="nota" min="0" max="10" step="1">
+        </label>
+    </p>
+    <p>
+        <label>
+            Bolo Red Velvet
+        </label>
+        <label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" name="nota" min="0" max="10" step="1">
+        </label>
+    </p>
+    </div>
+</fieldset>
+</div>
+<p>
+    
+</p>
+<p>  </p>
+<p>
+        <button class="button1" type="button" onclick="alert('Seu pedido foi enviado com sucesso!')">
+            Enviar pedido
+</button>
+</p>
+</body>
+<footer> 
+    <hr style="width: 700px;" color="black">
+    <h4><center>Guilherme Magno - Uryan Redede<br>(13) 3561-4344 - Avenida das Flores, 580<br>Magno's Coffee<sup>®</sup> Todos os direitos reservados.<br><a href="identidade.pdf" style="color: brown">Manual da Identidade Visual</a></center></h4    >
+ </footer>
+</html>

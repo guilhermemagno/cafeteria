@@ -1,0 +1,70 @@
+    .topnav {
+    align-content: center;
+    background-color: rgb(51, 48, 48);
+    overflow: hidden;
+    } 
+    
+    .topnav a {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px 60px;
+    text-decoration: none;
+    font-size: 17px;
+    }
+
+    .topnav a:hover {
+    background-color: rgba(253, 253, 253, 0.781);
+    color: rgb(247, 241, 241);
+    }
+
+    .topnav a.active {
+    background-color: brown;
+    color: white;
+    }
+    .center {
+        align-content: center;
+        text-align: center;
+    }
+    .fieldset1
+    {
+        border:4px solid black;
+    }
+    .button1 {
+        background-color: brown;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 15px
+    }
+    .header {
+        background: chocolate;
+    }
+    th, td {
+        width: 300px;
+        padding: 5px;
+        text-align: center;
+        align-content: center;
+    }
+
+h1 {
+font-size: 50px; 
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+}
+h2 {
+font-size: 30p;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+} 
+p {
+font-size: 25px; 
+}
+h3 {
+font-size: 10px;
+}
+h4 {
+font-size: 25px;
+}

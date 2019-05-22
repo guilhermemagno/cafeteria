@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SUGESTÃO</title>
+    <link id="favicon" rel="shortcut icon" href=".\imagens\logo.png" type="images/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://formden.com/static/cdn/font-awesome/4.4.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css" /> 
+    <style>.bootstrap-iso .formden_header h2, .bootstrap-iso .formden_header p, .bootstrap-iso form{font-family: Arial, Helvetica, sans-serif; color: #000000}.bootstrap-iso form button, .bootstrap-iso form button:hover{color: #eee3e3 !important;} .bootstrap-iso .btn-custom{background: #a52a2a} .bootstrap-iso .btn-custom:hover{background: #911616;}.bootstrap-iso .form-control:focus { border-color: #a52a2a;  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(165, 42, 42, 0.6); box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(165, 42, 42, 0.6);} .asteriskField{color: red;}.bootstrap-iso form .input-group-addon {color:#403535; background-color: #ffffff; border-radius: 4px; padding-left:12px}</style>
+
+    <script src="main.js"></script>
+</head>
+<body background="./imagens/madeirada.jpg">
+    <div class="header">
+    <div class="center">
+        <div class="topnav">
+        <a href="index.html"><i class="fa fa-fw fa-home"></i>Inicio</a>
+        <a href="menu.html"><i class="fa fa-fw fa-book"></i>Menu</a>
+        <a class="active" href="sugestao.html"><i class="fa fa-fw fa-envelope"></i>Sugestão</a>
+    </div>
+    </div>
+    </div>
+    <p></p>
+    <center><p><img src="./imagens/logo.png" alt="LOGO" style="widows: 300px; height:200px"></p></center>
+    <center><h2>DEIXE SUA SUGESTÃO</h2></center>
+    <hr style="width: 700px;" color="black">
+     <div class="container">
+        <div class="bootstrap-iso">
+                <div class="container-fluid">
+                 <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <form method="post">
+                         <div class="form-group ">
+                          <label class="control-label requiredField" for="name">
+                           Nome
+                           <span class="asteriskField">
+                            *
+                           </span>
+                          </label>
+                          <div class="input-group">
+                           <div class="input-group-addon">
+                            <i class="fa fa-smile-o">
+                            </i>
+                           </div>
+                           <input class="form-control" id="name" name="name" placeholder="Insira seu nome completo" type="text"/>
+                          </div>
+                         </div>
+                         <div class="form-group ">
+                          <label class="control-label requiredField" for="date">
+                           Data de nascimento
+                           <span class="asteriskField">
+                            *
+                           </span>
+                          </label>
+                          <div class="input-group">
+                           <div class="input-group-addon">
+                            <i class="fa fa-calendar">
+                            </i>
+                           </div>
+                           <input class="form-control" id="date" name="date" placeholder="DD/MM/AAAA" type="text" maxlength="8"/>
+                          </div>
+                         </div>
+                         <div class="form-group ">
+                          <label class="control-label " for="rg">
+                           RG
+                          </label>
+                          <div class="input-group">
+                           <div class="input-group-addon">
+                            <i class="fa fa-odnoklassniki">
+                            </i>
+                           </div>
+                           <input class="form-control" id="rg" name="rg" placeholder=" XX.XXX.XXX-X" type="text" maxlength="9"/>
+                          </div>
+                         </div>
+                         <div class="form-group ">
+                          <label class="control-label " for="cpf">
+                           CPF
+                          </label>
+                          <div class="input-group">
+                           <div class="input-group-addon">
+                            <i class="fa fa-odnoklassniki">
+                            </i>
+                           </div>
+                           <input class="form-control" id="cpf" name="cpf" placeholder="XXX.XXX.XXX-XX " type="text" maxlength="11"/>
+                          </div>
+                         </div>
+                         <div class="form-group ">
+                          <label class="control-label requiredField" for="email">
+                           Email
+                           <span class="asteriskField">
+                            *
+                           </span>
+                          </label>
+                          <div class="input-group">
+                           <div class="input-group-addon">
+                            <i class="fa fa-envelope-o">
+                            </i>
+                           </div>
+                           <input class="form-control" id="email" name="email" placeholder="exemplo@email.com" type="text"/>
+                          </div>
+                         </div>
+                         <div class="form-group ">
+                          <label class="control-label " for="tel">
+                           Telefone
+                          </label>
+                          <div class="input-group">
+                           <div class="input-group-addon">
+                            <i class="fa fa-phone">
+                            </i>
+                           </div>
+                           <input class="form-control" id="tel" name="tel" placeholder="(XX) XXXX-XXXX" type="text"/>
+                          </div>
+                         </div>
+                         <div class="form-group ">
+                          <label class="control-label " for="estado">
+                           Estado
+                          </label>
+                          <select class="select form-control" id="estado" name="estado">
+                           <option value="Esp&iacute;rito Santo (ES)">
+                            Esp&iacute;rito Santo (ES)
+                           </option>
+                           <option value="Minas Gerais (MG)">
+                            Minas Gerais (MG)
+                           </option>
+                           <option value="Rio de Janeiro (RJ)">
+                            Rio de Janeiro (RJ)
+                           </option>
+                           <option value="S&atilde;o Paulo (SP)">
+                            S&atilde;o Paulo (SP)
+                           </option>
+                          </select>
+                         </div>
+                         <div class="form-group ">
+                          <label class="control-label requiredField" for="message">
+                           Sugest&atilde;o
+                           <span class="asteriskField">
+                            *
+                           </span>
+                          </label>
+                          <textarea class="form-control" cols="40" id="message" name="message" placeholder="Deixe sua sugest&atilde;o" rows="10"  maxlength="250"></textarea>
+                         </div>
+                         <div class="form-group">
+                          <div>
+                           <button class="btn btn-custom" name="submit" type="submit" onclick="alert('Sua sugestão foi enviada com sucesso!')">
+                            Enviar sugest&atilde;o
+                           </button>
+                          </div>
+                         </div>
+                        </form>
+                       </div>
+                      </div>
+                     </div>
+                    </div>
+                    
+</body>
+<footer>
+        <hr style="width: 700px;" color="black">
+        <h4><center>Guilherme Magno - Uryan Redede<br>(13) 3561-4344 - Avenida das Flores, 580<br>Magno's Coffee<sup>®</sup> Todos os direitos reservados.<br><a href="identidade.pdf" style="color: brown">Manual da Identidade Visual</a></center></h4>
+    </footer>
+</html>
